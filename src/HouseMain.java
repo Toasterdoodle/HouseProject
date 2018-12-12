@@ -2,13 +2,13 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Created by michael_hopps on 10/2/17.
+ * Created by michael chen on 10/2/17.
  */
 public class HouseMain {
 
     public static void main(String[] args) {
 
-        JFrame frame = new JFrame("Your title here.");
+        JFrame frame = new JFrame("BEHOLD, MY CARDBOARD BOX!!!!1");
         frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
         int width = 1200;
         int height = 800;
@@ -22,5 +22,6 @@ public class HouseMain {
         frame.add(panel);
         frame.pack();
         frame.setVisible(true);
-    }
-}
+
+    }//end main
+}//end HouseMain
